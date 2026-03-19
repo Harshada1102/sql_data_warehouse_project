@@ -1,5 +1,5 @@
 /*
-Procedure to load data
+Procedure to load data from csv, procedure doesnt accept any parameter
 ________________________
 EXEC bronze.load_bronze
 */
