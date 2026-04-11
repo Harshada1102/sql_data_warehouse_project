@@ -3,9 +3,16 @@ Procedure performs ETL (Extract, Transform and Load)
 Loads data from bronze schema tables to silver schema tables.
 
 Procedure doesnt accept any parameters
-*/
+
+Action performed:
+
+Truncate silver table
+Transform and insert data into silver table
+
+Usage example:
 
 EXEC silver.load_silver
+*/
 
 CREATE OR ALTER PROCEDURE silver.load_silver AS
 BEGIN
